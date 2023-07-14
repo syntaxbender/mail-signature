@@ -1,0 +1,150 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    div.custom-mail-signature {
+        display: flex;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        color: #4a5181;
+        gap: 20px;
+        align-items: center;
+    }
+
+    div.custom-mail-signature p {
+        margin: 0;
+        padding: 0;
+    }
+
+    div.custom-mail-signature a {
+        text-decoration: none;
+    }
+
+    div.custom-mail-signature div.profile-photo>img {
+        width: 110px;
+        height: 110px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    div.custom-mail-signature div.signature-details {}
+
+    div.custom-mail-signature div.personal-information {}
+
+    div.custom-mail-signature div.socials {
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    div.custom-mail-signature div.socials div.social-image>img {
+
+        width: 20px;
+        height: 20px;
+        object-fit: contain;
+    }
+
+    div.custom-mail-signature div.socials div.seperator {
+        font-size: 20px;
+        font-weight: 900;
+        color: #a1a1a1;
+    }
+
+    div.custom-mail-signature div.socials div.nickname {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    div.custom-mail-signature div.socials>a {
+        display: flex;
+        gap: 4px;
+        align-items: center;
+        color: #647174;
+    }
+
+    div.custom-mail-signature div.personal-information p.full-name {
+        font-size: 18px;
+        font-weight: 300;
+        margin: 2px 0px;
+    }
+
+    div.custom-mail-signature div.personal-information p.title {
+        font-weight: 500;
+        font-size: 14px;
+        margin: 2px 0px 10px 0px;
+    }
+
+    div.custom-mail-signature div.contact-details>div {
+        display: flex;
+        ;
+    }
+
+    div.custom-mail-signature div.contact-details {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+
+    div.custom-mail-signature div.contact-details>p {
+        font-size: 12px;
+        margin: 0px 2px;
+    }
+
+    div.custom-mail-signature div.contact-details div.contact-row {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    div.custom-mail-signature div.contact-details div.contact-row img {
+        width: 20px;
+        height: 20px;
+        object-fit: contain;
+    }
+
+    div.custom-mail-signature div.contact-details div.contact-row p {
+        font-size: 12px;
+        font-weight: 500;
+    }
+</style>
+
+<div class="custom-mail-signature">
+    <div class="profile-photo">
+        <img src="./assets/images/photo.jpg">
+    </div>
+    <div class="signature-details">
+        <div class="personal-information">
+            <p class="full-name">Hasan Özer</p>
+            <p class="title">Full Stack Developer</p>
+        </div>
+        <div class="contact-details">
+            <div class="contact-row">
+                <div><img src="./assets/images/phone.png" alt=""></div>
+                <div>
+                    <p>+90 543 520 4072</p>
+                </div>
+            </div>
+            <div class="contact-row">
+                <div><img src="./assets/images/email.png" alt=""></div>
+                <div>
+                    <p>me@hasanozer.me</p>
+                </div>
+            </div>
+        </div>
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/syntaxbender/">
+                <div class="social-image">
+                    <img src="./assets/images/linkedin.png" alt="linkedin-profile">
+                </div>
+                <div class="seperator">/</div>
+                <div class="nickname">@syntaxbender</div>
+            </a>
+            <a href="https://github.com/syntaxbender">
+                <div class="social-image">
+                    <img src="./assets/images/github.png" alt="github-profile">
+                </div>
+                <div class="seperator">/</div>
+                <div class="nickname">@syntaxbender</div>
+            </a>
+        </div>
+    </div>
+</div>
