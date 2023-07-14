@@ -1,0 +1,1 @@
+![alt text](https://github.com/syntaxbender/mail-signature/blob/master/screenshot.png?raw=true)
